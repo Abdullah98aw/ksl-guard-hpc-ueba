@@ -1,5 +1,3 @@
----
-
 # Results — User-Level UEBA Evaluation
 
 **Dataset configuration (June 2026).**
