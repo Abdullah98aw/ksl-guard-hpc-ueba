@@ -17,6 +17,7 @@ Design goals:
 IMPORTANT:
 This generator produces *synthetic* data. Do not represent the outputs as real KAUST logs.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass, asdict
@@ -27,8 +28,6 @@ import random
 import csv
 import os
 import json
-
-
 
 @dataclass
 class SynthConfig:

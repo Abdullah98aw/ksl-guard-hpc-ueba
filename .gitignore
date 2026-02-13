@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local outputs (do not commit large artifacts)
+data/
+results/
+outputs/
+*.log
+
+# Experiment result folders
+results_w1/
+results_w2/
+results_w3/
+
+# Jupyter
+.ipynb_checkpoints/
+

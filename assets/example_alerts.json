@@ -1,0 +1,41 @@
+{
+  "alerts": [
+    {
+      "user": "bob",
+      "risk": 0.612,
+      "risk_seq": 0.743,
+      "risk_job": 0.213,
+      "seq_alert_events": 8,
+      "seq_threshold": 0.935
+    },
+    {
+      "user": "dave",
+      "risk": 0.488,
+      "risk_seq": 0.221,
+      "risk_job": 0.987,
+      "seq_alert_events": 1,
+      "seq_threshold": 0.935
+    }
+  ],
+  "seq_events": [
+    {
+      "ts": "2026-02-12 11:20:00+00:00",
+      "user": "bob",
+      "seq_anom": 0.981,
+      "seq_alert": true
+    },
+    {
+      "ts": "2026-02-12 11:25:00+00:00",
+      "user": "bob",
+      "seq_anom": 0.972,
+      "seq_alert": true
+    }
+  ],
+  "job_events": [
+    {
+      "user": "dave",
+      "jobid": 77777,
+      "job_anom": 0.997
+    }
+  ]
+}
