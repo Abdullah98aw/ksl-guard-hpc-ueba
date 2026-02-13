@@ -17,7 +17,7 @@ Design goals:
 IMPORTANT:
 This generator produces *synthetic* data. Do not represent the outputs as real KAUST logs.
 """
-
+import json
 from __future__ import annotations
 
 from dataclasses import dataclass, asdict
